@@ -1,0 +1,16 @@
+#box{
+    width: 450px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-item{
+    box-sizing: border-box;
+    width: 33%;
+    height: 33%;
+    display: block;
+
+}
